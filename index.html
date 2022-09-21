@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site over ander persoon</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()" id="Open">&#9776; open</span>
+    
+    <!--Header-->
+        
+        <header id="header">
+            <H1 class="hoofdtext">Site over Brahim</H1>
+
+
+        </header>
+
+    <!--Menu-->
+
+        <div id="myNav" class="overlay">
+            <a href="script.js" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="content-overlay">
+                <a href="#">Over</a>
+                <a href="#">Info</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+            </div>
+        </div>
+
+    <!--Floats-->
+
+        <div id="float1">
+            <h3 class="hoofdtext2">Informatie</h3>
+            <p class="text"></p>
+        </div>
+
+        <div id="float2">
+            <h3 class="hoofdtext2">Woonplaats</h3>
+            <p class="text"></p>
+                <div id="googleMap" style="width:100%;height:100px;"></div>
+        </div>
+
+        <div id="float3">
+            <h3 class="hoofdtext2">Social media</h3>
+            <p class="text"></p>
+        </div>
+         
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+        <script src="script.js"></script>
+
+</body>
+</html>
