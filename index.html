@@ -8,29 +8,28 @@
 
     <link rel="stylesheet" href="style.css">
 
-
 </head>
 <body>
     
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()" id="Open">&#9776; open</span>
+    
     
     <!--Header-->
         
         <header id="header">
             <H1 class="hoofdtext">Site over Brahim</H1>
-
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="hoofdtext">&#9776; Home</span>
 
         </header>
 
     <!--Menu-->
 
         <div id="myNav" class="overlay">
-            <a href="script.js" class="closebtn" onclick="closeNav()">&times;</a>
-            <div class="content-overlay">
-                <a href="#">Over</a>
-                <a href="#">Info</a>
-                <a href="#">3</a>
-                <a href="#">4</a>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="#">Home</a>
+                <a href="index_info.html">Info</a>
+                <a href="#">Woonplaats</a>
+                <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">4</a>
             </div>
         </div>
 
@@ -38,24 +37,38 @@
 
         <div id="float1">
             <h3 class="hoofdtext2">Informatie</h3>
-            <p class="text"></p>
+            <p class="text">De informatie die ik over Brahim heb verameld zal ik hierin zetten dit is wellicht niet heel veel maar 
+                nogsteeds iets. 
+            </p>
         </div>
 
         <div id="float2">
             <h3 class="hoofdtext2">Woonplaats</h3>
-            <p class="text"></p>
-                <div id="googleMap" style="width:100%;height:100px;"></div>
+            <p class="text">Van de informatie die ik heb verzameld weet ik dat Brahim in Hoensbroek woond</p>
+            <img src="broek.png" id="broek">
         </div>
 
         <div id="float3">
             <h3 class="hoofdtext2">Social media</h3>
             <p class="text"></p>
+            
+            <a href="https://discord.com/login"> 
+                <img src="discord.png" class="Discord"> 
+            </a>
+            
+            <a href="https://www.instagram.com/?hl=nl" > 
+                <img src="instagram.jpg" class="Instagram"> 
+            </a>
+        
         </div>
-         
 
-        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
-
+        <div id="float4">
+            <h3 class="hoofdtext2"></h3>
+            <p class="text"></p>
+        </div>
+        
         <script src="script.js"></script>
+
 
 </body>
 </html>

@@ -2,8 +2,7 @@
 
 body {
 
-    background-image: linear-gradient(rgb(0, 0, 0), rgb(69, 252, 69), rgb(0, 166, 0));
-    
+    background-image: linear-gradient(rgb(255, 111, 0), rgb(247, 189, 102), white);
 }
 
 header {
@@ -17,62 +16,20 @@ header {
     
 }
 
+/*Floats*/
+
 #float1 {
 
-    width: 300px;
-    height: 500px;
+    width: 1100px;
+    height: 250px;
     position: relative;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-color: black;
     border-style: groove;
     border-width: 5px;
     top: 125px;
     margin-left: 200px;
     border-radius: 10px;
-}
-
-#float2 {
-
-    width: 300px;
-    height: 500px;
-    position: relative;
-    background-color: white;
-    border-color: black;
-    border-style: groove;
-    border-width: 5px;
-    bottom: 285px;
-    margin: auto;
-    border-radius: 10px;
-}
-
-#float3 {
-
-    width: 300px;
-    height: 500px;
-    position: relative;
-    background-color: white;
-    border-color: black;
-    border-style: groove;
-    border-width: 5px;
-    bottom: 695px;
-    margin-left: 990px;
-    border-radius: 10px;
-    
-}
-
-#float4 {
-
-    width: 1250px;
-    height: 250px;
-    position: relative;
-    background-color: white;
-    border-color: black;
-    border-style: groove;
-    border-width: 5px;
-    bottom: 630px;
-    margin-left: 120px;
-    border-radius: 10px;
-
 }
 
 /*Menu*/
@@ -92,12 +49,12 @@ header {
 }
 
 .overlay-content {
+
     position: relative;
     top: 25%;
     width: 100%;
     text-align: center;
     margin-top: 30px;
-
 }
 
 .overlay a {
@@ -157,38 +114,16 @@ header {
 
 /*Overig*/
 
-#broek {
+#Fivem {
 
-    width: 300px;
-    height: auto;
-    position: relative;
-    border-radius: 10px;
+    float: left;
+    height: 220px;
+    border-radius: 40px;
 }
 
-.Discord {
+#Fivem2 {
 
-    width: 150px;
-    border-radius: 35px;
-    margin-left: 75px;
-    margin-right: 75px;
-}
-
-.Discord:hover {
-
-    opacity: 0.7;
-}
-
-.Instagram {
-
-    width: 150px;
-    border-radius: 35px;
-    margin-right: 75px;
-    margin-top: 40px;
-    margin-left: 75px;
-    
-}
-
-.Instagram:hover {
-
-    opacity: 0.7;
+    float: right;
+    height: 220px;
+    border-radius: 40px;
 }
