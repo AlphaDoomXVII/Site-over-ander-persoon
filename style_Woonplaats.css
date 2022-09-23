@@ -2,7 +2,8 @@
 
 body {
 
-    background-image: linear-gradient(rgb(255, 111, 0), rgb(247, 189, 102), white);
+    background-image: linear-gradient(rgb(255, 0, 242), rgb(44, 197, 243), rgb(9, 194, 9));
+    
 }
 
 header {
@@ -20,17 +21,16 @@ header {
 
 #float1 {
 
-    width: 1100px;
-    height: 250px;
+    width: 300px;
+    height: 450px;
     position: relative;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     border-color: black;
     border-style: groove;
     border-width: 5px;
-    top: 125px;
-    margin-left: 200px;
     border-radius: 10px;
-    text-align: center;
+    top: 105px;
+    left: 350px;
 }
 
 /*Menu*/
@@ -50,12 +50,12 @@ header {
 }
 
 .overlay-content {
-
     position: relative;
     top: 25%;
     width: 100%;
     text-align: center;
     margin-top: 30px;
+
 }
 
 .overlay a {
@@ -110,31 +110,36 @@ header {
 .text {
 
     font-size: 23px;
-    
-}
+    margin: 2px;
 
-#text2 {
-
-    padding-left: 300px;
-    padding-right: 300px;
 }
 
 /*Overig*/
 
-#Fivem {
+#broek {
 
+    width: 500px;
+    height: auto;
     position: relative;
-    height: 220px;
-    border-radius: 40px;
-    right: 480px;
-    bottom: 150px;
+    left: 360px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: groove;
+    border-width: 5px;
+    bottom: 263px;
 }
 
-#Fivem2 {
+#stad {
 
+    width: 700px;
+    height: auto;
     position: relative;
-    height: 220px;
-    border-radius: 40px;
-    left: 176px;
-    bottom: 150px;
+    top: 180px;
+    left: 400px;
+    border-width: 5px;
+    border-style: groove;
+    border-color: #000000;
+    border-radius: 30px;
 }
+
+
